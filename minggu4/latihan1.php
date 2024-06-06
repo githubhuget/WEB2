@@ -34,7 +34,8 @@ $result = mysqli_query($koneksi, "SELECT * from kategori");
 			
         </tr>
         <?php $i++ ?>
-        <?php endwhile ?>      
+        <?php endwhile ?>
+              
     </table>
 </body>
 </html>
